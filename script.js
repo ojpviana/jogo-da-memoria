@@ -29,7 +29,8 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 
-  
+
+
     function flipCard() {
         if (lockBoard) return;
         if (this === flippedCard) return;
@@ -57,8 +58,12 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
    
+
+    
     resetButton.addEventListener("click", () => {
+        
         createBoard();
+        
     });
 
     

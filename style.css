@@ -4,8 +4,29 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:slategrey;
+    background-color:  rgb(103, 72, 202);
+    color: white;
+    font-family: MV Boli;
 }
+
+#reset-button {
+   background-color: transparent;
+   border-color: transparent;
+   
+
+}
+
+#reset-button:hover 
+{     transform: scale(1.2); }
+
+svg {
+    width: 50px;
+    padding: 10px 20px;     
+   font-size: 16px;     
+   cursor: pointer;     
+   transition: transform 0.3s ease-in-out;
+}
+
 
 
 #game-container {
